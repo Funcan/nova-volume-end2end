@@ -1,0 +1,8 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: python-nova-volume-testing
+Source: <url://example.com>
+
+Files: *
+Copyright: 2011 Hewlett Packard 
+License: Commerical? 
+

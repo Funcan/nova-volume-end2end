@@ -1,0 +1,18 @@
+Source: python-nova-volume-testing
+Section: python
+Priority: extra
+Maintainer: Bock  <bock@unknown>
+Build-Depends: debhelper (>= 7.0.50~), python-support, python (>=2.4), python-setuptools
+Standards-Version: 3.9.1
+Homepage: <insert the upstream URL, if relevant>
+
+Package: python-nova-volume-testing
+Architecture: all
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ ${python:Depends},
+Provides: ${python:Provides}
+Description: Nova Volume Testing
+ This package contains a suite of tests to confirm that Nova Volumes has
+ been correctly installed and configured.
+
